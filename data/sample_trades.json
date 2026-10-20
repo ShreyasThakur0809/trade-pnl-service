@@ -1,0 +1,339 @@
+{
+  "generated_at": "2026-10-19T22:38:18.804653+00:00",
+  "mode": "synthetic",
+  "note": "synthetic fills; see scripts/seed.py and PROCESS.md",
+  "batches": [
+    {
+      "endpoint": "/v1/venues/binance/trades",
+      "payload": [
+        {
+          "id": 900000,
+          "orderId": 100000,
+          "symbol": "BTCUSDT",
+          "price": "67000",
+          "qty": "0.358",
+          "quoteQty": "23986",
+          "commission": "0.000358",
+          "commissionAsset": "BTC",
+          "time": 1791763200000,
+          "isBuyer": true,
+          "isMaker": true
+        },
+        {
+          "id": 900001,
+          "orderId": 100001,
+          "symbol": "BTCUSDT",
+          "price": "67201.69384962",
+          "qty": "0.2969",
+          "quoteQty": "19952.18290395",
+          "commission": "19.9521829",
+          "commissionAsset": "USDT",
+          "time": 1791777600000,
+          "isBuyer": true,
+          "isMaker": true
+        },
+        {
+          "id": 900002,
+          "orderId": 100002,
+          "symbol": "BTCUSDT",
+          "price": "65883.68696563",
+          "qty": "0.2779",
+          "quoteQty": "18309.07660775",
+          "commission": "0.0002779",
+          "commissionAsset": "BTC",
+          "time": 1791792000000,
+          "isBuyer": true,
+          "isMaker": false
+        },
+        {
+          "id": 900003,
+          "orderId": 100003,
+          "symbol": "BTCUSDT",
+          "price": "66110.32186841",
+          "qty": "0.2709",
+          "quoteQty": "17909.28619415",
+          "commission": "17.90928619",
+          "commissionAsset": "USDT",
+          "time": 1791806400000,
+          "isBuyer": true,
+          "isMaker": true
+        },
+        {
+          "id": 900004,
+          "orderId": 100004,
+          "symbol": "BTCUSDT",
+          "price": "65611.13828919",
+          "qty": "0.2266",
+          "quoteQty": "14867.48393633",
+          "commission": "0.0002266",
+          "commissionAsset": "BTC",
+          "time": 1791820800000,
+          "isBuyer": true,
+          "isMaker": false
+        },
+        {
+          "id": 900005,
+          "orderId": 100005,
+          "symbol": "BTCUSDT",
+          "price": "67052.29224593",
+          "qty": "0.397",
+          "quoteQty": "26619.76002163",
+          "commission": "26.61976002",
+          "commissionAsset": "USDT",
+          "time": 1791835200000,
+          "isBuyer": false,
+          "isMaker": true
+        },
+        {
+          "id": 900006,
+          "orderId": 100006,
+          "symbol": "BTCUSDT",
+          "price": "67660.87539046",
+          "qty": "0.2628",
+          "quoteQty": "17781.27805261",
+          "commission": "0.0002628",
+          "commissionAsset": "BTC",
+          "time": 1791849600000,
+          "isBuyer": false,
+          "isMaker": false
+        },
+        {
+          "id": 900007,
+          "orderId": 100007,
+          "symbol": "BTCUSDT",
+          "price": "67201.50383611",
+          "qty": "0.4623",
+          "quoteQty": "31067.25522343",
+          "commission": "31.06725522",
+          "commissionAsset": "USDT",
+          "time": 1791864000000,
+          "isBuyer": false,
+          "isMaker": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/v1/venues/coinbase/trades",
+      "payload": [
+        {
+          "trade_id": "cb-50000",
+          "product_id": "ETH-USD",
+          "side": "BUY",
+          "price": "3400",
+          "size": "0.1745",
+          "fee": "0.88995",
+          "created_at": "2026-10-12T00:00:00Z"
+        },
+        {
+          "trade_id": "cb-50001",
+          "product_id": "ETH-USD",
+          "side": "BUY",
+          "price": "3400.69513886",
+          "size": "0.5645",
+          "fee": "2.87953861",
+          "created_at": "2026-10-12T04:00:00Z"
+        },
+        {
+          "trade_id": "cb-50002",
+          "product_id": "ETH-USD",
+          "side": "BUY",
+          "price": "3364.81346804",
+          "size": "0.1395",
+          "fee": "0.70408722",
+          "created_at": "2026-10-12T08:00:00Z"
+        },
+        {
+          "trade_id": "cb-50003",
+          "product_id": "ETH-USD",
+          "side": "BUY",
+          "price": "3281.77685511",
+          "size": "0.8987",
+          "fee": "4.42399929",
+          "created_at": "2026-10-12T12:00:00Z"
+        },
+        {
+          "trade_id": "cb-50004",
+          "product_id": "ETH-USD",
+          "side": "BUY",
+          "price": "3265.3078372",
+          "size": "0.8966",
+          "fee": "4.39151251",
+          "created_at": "2026-10-12T16:00:00Z"
+        },
+        {
+          "trade_id": "cb-50005",
+          "product_id": "ETH-USD",
+          "side": "SELL",
+          "price": "3148.83103717",
+          "size": "0.1863",
+          "fee": "0.87994083",
+          "created_at": "2026-10-12T20:00:00Z"
+        },
+        {
+          "trade_id": "cb-50006",
+          "product_id": "ETH-USD",
+          "side": "SELL",
+          "price": "3168.58939855",
+          "size": "0.4819",
+          "fee": "2.29041485",
+          "created_at": "2026-10-13T00:00:00Z"
+        },
+        {
+          "trade_id": "cb-50007",
+          "product_id": "ETH-USD",
+          "side": "SELL",
+          "price": "3104.10041023",
+          "size": "0.168",
+          "fee": "0.7822333",
+          "created_at": "2026-10-13T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "endpoint": "/v1/venues/coindcx/trades",
+      "payload": [
+        {
+          "id": "dcx-70000",
+          "symbol": "B-SOL_USDT",
+          "side": "buy",
+          "price": 150.0,
+          "quantity": 0.1735,
+          "fee": 0.026,
+          "timestamp": 1791763200000
+        },
+        {
+          "id": "dcx-70001",
+          "symbol": "B-SOL_USDT",
+          "side": "buy",
+          "price": 146.03,
+          "quantity": 0.6546,
+          "fee": 0.0956,
+          "timestamp": 1791777600000
+        },
+        {
+          "id": "dcx-70002",
+          "symbol": "B-SOL_USDT",
+          "side": "buy",
+          "price": 144.25,
+          "quantity": 0.2528,
+          "fee": 0.0365,
+          "timestamp": 1791792000000
+        },
+        {
+          "id": "dcx-70003",
+          "symbol": "B-SOL_USDT",
+          "side": "buy",
+          "price": 144.69,
+          "quantity": 0.5412,
+          "fee": 0.0783,
+          "timestamp": 1791806400000
+        },
+        {
+          "id": "dcx-70004",
+          "symbol": "B-SOL_USDT",
+          "side": "sell",
+          "price": 144.99,
+          "quantity": 0.2608,
+          "fee": 0.0378,
+          "timestamp": 1791820800000
+        },
+        {
+          "id": "dcx-70005",
+          "symbol": "B-SOL_USDT",
+          "side": "sell",
+          "price": 145.93,
+          "quantity": 0.3158,
+          "fee": 0.0461,
+          "timestamp": 1791835200000
+        }
+      ]
+    },
+    {
+      "endpoint": "/v1/trades",
+      "payload": {
+        "venue": "kraken",
+        "trades": [
+          {
+            "venue_trade_id": "kr-1",
+            "symbol": "DOGE-USDT",
+            "side": "buy",
+            "price": "0.21",
+            "quantity": "500",
+            "executed_at": "2026-10-12T02:00:00+00:00"
+          },
+          {
+            "symbol": "DOGE-USDT",
+            "side": "buy",
+            "price": "0.22",
+            "quantity": "300",
+            "executed_at": "2026-10-12T06:00:00+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "endpoint": "/v1/venues/binance/trades",
+      "payload": [
+        {
+          "id": 900000,
+          "orderId": 100000,
+          "symbol": "BTCUSDT",
+          "price": "67000",
+          "qty": "0.358",
+          "quoteQty": "23986",
+          "commission": "0.000358",
+          "commissionAsset": "BTC",
+          "time": 1791763200000,
+          "isBuyer": true,
+          "isMaker": true
+        }
+      ]
+    },
+    {
+      "endpoint": "/v1/trades",
+      "payload": {
+        "venue": "binance",
+        "trades": [
+          {
+            "venue_trade_id": "ovr-1",
+            "symbol": "BTCUSDT",
+            "side": "sell",
+            "price": "70000",
+            "quantity": "50.3082"
+          }
+        ]
+      }
+    }
+  ],
+  "marks": [
+    {
+      "symbol": "BTC-USDT",
+      "price": "69500",
+      "source": "seed"
+    },
+    {
+      "symbol": "ETH-USD",
+      "price": "3350",
+      "source": "seed"
+    },
+    {
+      "symbol": "SOL-USDT",
+      "price": "142",
+      "source": "seed"
+    },
+    {
+      "symbol": "DOGE-USDT",
+      "price": "0.25",
+      "source": "seed"
+    }
+  ],
+  "reconcile": {
+    "venue": "binance",
+    "positions": [
+      {
+        "symbol": "BTC-USDT",
+        "quantity": "0.2882"
+      }
+    ]
+  }
+}
