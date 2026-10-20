@@ -2,7 +2,7 @@ services:
   - type: web
     name: trade-pnl-service
     env: python
-    buildCommand: pip install -e .
+    buildCommand: pip install -r requirements.txt && pip install -e .
     startCommand: uvicorn tradepnl.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: DATABASE_URL
