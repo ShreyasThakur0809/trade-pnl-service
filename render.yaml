@@ -2,6 +2,7 @@ services:
   - type: web
     name: trade-pnl-service
     env: python
+    plan: free
     buildCommand: pip install -e ".[data]"
     startCommand: uvicorn tradepnl.main:app --host 0.0.0.0 --port $PORT
     envVars:
@@ -20,3 +21,4 @@ databases:
   - name: trade-pnl-db
     databaseName: tradepnl
     user: tradepnl_user
+    plan: free
